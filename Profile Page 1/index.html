@@ -54,19 +54,28 @@
 <a class="btn btn-link" href="https://www.youtube.com/watch?v=12vqNAvrfAM" role="button">Journals</a>
             </div>
                                 <div class="container text-light bg-dark" align="center">
-                                    <button onclick="changetext(this)">WATCH</button>
-                                    <a href="https://www.youtube.com/watch?v=NHPMwrPMCkU" class="ml-4">Private Message</a>
 
-                                    <a href="https://www.youtube.com/watch?v=1FMBZcCO6l4" class="ml-5">CHALLENGE TO PAINT BRAWL</a>
+                                    <button id="WatchButton"type="button" class="btn btn-primary mr-4"
+                                                onclick="changetext()">WATCH</button>
+
+                                                                    <script>
+                                                                    function changetext(){
+                                                                        var WatchButton = document.getElementById('WatchButton');
+                                                                        WatchButton.innerHTML = "WATCHING"
+                                                                    }
+                                                                    </script>
+
+
+                                    <button type="button" class="btn btn-danger">
+                                    <a href="https://www.youtube.com/watch?v=NHPMwrPMCkU" class="ml-auto">Private Message</a></button>
+
+
+                                    <a href="profile page 4/index.html" class="ml-auto">CHALLENGE TO PAINT BRAWL</a>
 
                                     <a href="https://www.youtube.com/watch?v=1FMBZcCO6l4" class="ml-5">PARTNER UP FOR PAINT BRAWL</a>
                                     
                                 </div>
-                                <script>
-                                    function changetext(id){
-                                        id.innerHTML = 'WATCHED';
-                                    }
-                                </script>
+                                
 
                                 
 
